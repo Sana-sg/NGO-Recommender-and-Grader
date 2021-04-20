@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:'Poppins',sans-serif;
+}
+body{
+	width:100%;
+	justify-content: center;
+	align-items:center;
+	min-height: 100vh;
+	background:url(../images/b2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:rgba(0,0,0,0.4);
+  
+}
+
+li {
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color:#fff;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: linear-gradient(45deg, #2c6dd5 0%, #2c6dd5 28%, #ff4b5a 91%, #ff4b5a 100%);;
+}
+#rightside{
+  float: right;
+}
+h1{
+	position: relative;
+	padding-left:230px;
+	letter-spacing:3px;
+	font-size: 30px;
+	color:#fff;
+	text-align: left;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	cursor:pointer;
+	animation: heads 3s 0.5s 1;
+}
+@keyframes heads{
+	0%{
+		color:#000;
+		margin-bottom: -20px;
+	}
+	30%{
+		letter-spacing: 15px;
+	}
+	85%{
+       letter-spacing: 3px;
+	}
+}
+.card{
+	width:400px;
+	height:600px;
+	justify-content:center;
+	align-items: center;
+	background:url(../images/b3.jpg);
+	background-position: center;
+	background-size: cover;
+	margin:20px;
+	box-shadow: 0 10px 20px #fff;
+
+}
+
+.card-content{
+	padding:10px;
+	color:#fff;
+
+}
+.weblink a{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.weblink img:hover{
+	transition: all ease 1s;
+	transform: scale(1.15);
+
+}
+.clr{
+	color:#fffc00;
+}
+.err{
+	text-align: center;
+	padding:20px;
+	font-size: 40px;
+	font-weight: 800;
+}
+.top{
+	height:100px;
+	justify-content:center;
+	align-items: center;
+	padding:50px;
+	margin:30px;
+}
+.top h2{
+	font-weight: 600px;
+	font-size:40px;
+	color:#fff;
+	text-align: center;
+}
+.top .lnk{
+	box-sizing: border-box;
+	width:120px;
+	height:30px;
+	text-align: center;
+	background:#89ff00;
+	margin:0 auto;
+	padding:5px;
+
+}
+.top .lnk:hover{
+	transition: all ease 1s;
+	transform: scale(1.15);
+ 
+
+}
+.top a{
+	text-decoration: none;
+	color:#000;
+}
