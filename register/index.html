@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title Page-->
+    <title>register form</title>
+
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Register NGO</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        <div class="form-row">
+                            <div class="name">NGO Name</div>
+                            <div class="value">
+                                <input class="input--style-6" type="text" name="full_name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">NGO Cause</div>
+                            <div class="value">
+                                <div class="input-group">
+                                <select class="input--style-6" name="subject" >
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Aged/Elderly</option>
+                <option>Animal Husbandry</option>
+                <option>Agriculture</option>
+                <option>Art & Culture</option>
+                <option>Children</option>
+                <option>Education & Literacy</option>
+                <option>Health & Family Welfare</option>
+                <option>Human Rights</option>
+                <option>Labour & Employment</option>
+                <option>Rural Development</option>
+                <option>Sports</option>
+                <option>Women Empowerment</option>
+                <option>Others</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="form-row">
+                            <div class="name">Website Link</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="phno" placeholder=" Enter website link(If Any)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Place</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="place" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Full Address</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <textarea class="textarea--style-6" name="message" placeholder="Enter full address"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Unique ID</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-6" type="text" name="unqid" placeholder="Enter your unique NGO ID">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Upload Document</div>
+                            <div class="value">
+                                <div class="input-group js-input-file">
+                                    <input class="input-file" type="file" name="file_cv" id="file">
+                                    <label class="label--file" for="file">Choose file</label>
+                                    <span class="input-file__info">No file chosen</span>
+                                </div>
+                                <div class="label--desc">Upload your identification certificate. Max file size 50 MB</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn--radius-2 btn--blue-2" type="submit">Send Application</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+
+
+
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>

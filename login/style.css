@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background:rgba(255,255,255,0.3);
+  
+}
+
+li {
+  float: left;
+  font-family: "Roboto", sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: linear-gradient(45deg, #2c6dd5 0%, #2c6dd5 28%, #ff4b5a 91%, #ff4b5a 100%);;
+}
+#rightside{
+  float: right;
+}
